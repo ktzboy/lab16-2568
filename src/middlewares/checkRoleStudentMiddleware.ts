@@ -8,7 +8,7 @@ import { users } from "../db/db.js";
 //   token?: string; // Define the token property
 // }
 
-export const checkRoleAdmin = (
+export const checkRoleStudent = (
   req: CustomRequest,
   res: Response,
   next: NextFunction
